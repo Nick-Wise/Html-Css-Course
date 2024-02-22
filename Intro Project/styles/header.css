@@ -11,6 +11,7 @@
   border-bottom-width:1px;
   border-bottom-style: solid;
   border-bottom-color:rgb(188, 188, 188);
+  z-index: 100;
 }
 
 
@@ -112,8 +113,27 @@
   height: 24px;
 }
 
+.notifications-icon-container
+{
+  position: relative;
+}
+
+.notifications-count
+{
+  position:absolute;
+  top: -2px;
+  right: -2px;
+  background-color: rgb(195, 1, 1);
+  color: white;
+  font-family:Roboto,Arial;
+  font-size:10px ;
+  padding: 2px 5px 2px 5px;
+  border-radius: 10px;
+}
+
 .current-user-pic
 {
   height:32px;
   border-radius: 16px;
 }
+
