@@ -4,9 +4,35 @@
   left: 0px;
   bottom: 0;
   top:55px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 72px;
   /* border-right-width: 1px;
   border-right-style: solid;
   border-right-color: rgb(188, 188, 188); */
+  z-index: 200;
+  padding-top:5px;
+}
+
+.sidebar-link{
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+
+.sidebar-link:hover{
+  background-color:rgb(234, 233, 233);
+  cursor: pointer;
+}
+
+.sidebar-link img{
+  height: 20px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link p{
+  font-family:Robotom,Arial;
+  font-size:10px
 }
